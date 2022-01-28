@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(218, 217, 217, 0.3);
+}
+.form{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    padding: 50px 20px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px rgb(199 197 197), -8px -8px 8px white;
+}
+h3{
+    text-align: center;
+    color: rgb(0, 183, 255);
+}
+.name{
+    width: 250px;
+    height: 25px;
+    margin: 50px auto;
+    padding: 13px;
+    border-radius: 15px;
+    box-shadow: inset -6px -6px 5px white,
+    inset 6px 6px 5px rgb(199, 197, 197);
+    color: rgb(0, 183, 255);
+}
+.submit{
+    width: 200px;
+    color: rgb(0, 183, 255);
+    height: 25px;
+    padding: 13px;
+    margin: 70px 0 35px 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow:  -6px -6px 5px white,
+     6px 6px 5px rgb(199, 197, 197);
+}
+.active{
+    box-shadow: inset -6px -6px 5px white,
+    inset 6px 6px 5px rgb(199, 197, 197);
+    font-weight: bolder;
+
+}
+.menuactive{
+    box-shadow:  -6px -6px 5px white,
+     6px 6px 5px rgb(199, 197, 197);
+    font-weight: bolder;
+
+}
