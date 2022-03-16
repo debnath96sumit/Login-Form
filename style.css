@@ -32,23 +32,61 @@ h3{
     inset 6px 6px 5px rgb(199, 197, 197);
     color: rgb(0, 183, 255);
 }
+.details{   
+    width: 246px;
+    height: 34px;
+    margin: -7px -7px;
+    background: transparent;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: rgb(0, 183, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+::placeholder{
+    color: rgb(0, 183, 255);
+
+}
+.check{
+    margin-left: 13px;
+    display: flex;
+    flex-direction: row;
+}
+.check input{
+    margin-right: 8px;
+}
+.check p{
+    color: rgb(0, 183, 255);
+    margin: -2.5px;
+}
 .submit{
     width: 200px;
-    color: rgb(0, 183, 255);
     height: 25px;
     padding: 13px;
-    margin: 70px 0 35px 35px;
+    margin: 22px 0 35px 35px;
     border-radius: 15px;
-    font-size: 20px;
-    text-align: center;
     box-shadow:  -6px -6px 5px white,
-     6px 6px 5px rgb(199, 197, 197);
+    6px 6px 5px rgb(199, 197, 197);
+}
+.submit input{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin: -7px 0;
+    background: rgb(243 238 243 / 30%);
+    font-size: 17px;
+    color: rgb(0, 183, 255);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 }
 .active{
     box-shadow: inset -6px -6px 5px white,
     inset 6px 6px 5px rgb(199, 197, 197);
-    font-weight: bolder;
-
+    background-color: rgb(218, 217, 217, 0.3);
+    color: rgb(0, 183, 255);
+    font-weight: 100;
 }
 .menuactive{
     box-shadow:  -6px -6px 5px white,
