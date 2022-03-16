@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,33 @@
     <title>My Creation</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="form">
-        <h3>Web Developement</h3>
-        <div class="name" id="Name">User Name</div>
-        <div class="name" id="pass">Password</div>
-        <div class="submit">Login</div>
+        <form action="">
+            <h3>Web Developement</h3>
+            <div class="name" id="Name"> <input type="text" value="" class="details" placeholder="Username"></div>
+            <div class="name" id="pass"><input type="password" value="" class="details" placeholder="Password"></div>
+            <div class="check">
+                <input type="checkbox">
+                <p>Remember me</p>
+
+            </div>
+            <div class="submit"><input type="Submit" value="LOGIN"></div>
+        </form>
     </div>
     <script>
-        document.querySelector(".submit").addEventListener("click", function(){
+        document.querySelector(".submit").addEventListener("click", function () {
             document.querySelector(".submit").classList.toggle("active");
         })
-        document.getElementById("Name").addEventListener("click", function(){
+        document.getElementById("Name").addEventListener("click", function () {
             document.getElementById("Name").classList.toggle("menuactive");
         })
-        document.getElementById("pass").addEventListener("click", function(){
+        document.getElementById("pass").addEventListener("click", function () {
             document.getElementById("pass").classList.toggle("menuactive");
         })
-        
+
     </script>
 </body>
+
 </html>
